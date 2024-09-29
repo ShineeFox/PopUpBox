@@ -1,81 +1,82 @@
-body {
-    background-color: #022603;
-}
-
-.outer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
-}
-
-.heading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 28px;
-}
-
-h1, h2 {
-    text-align: center;
-}
-
-h1 {
-    color: #c2c2c2;
-    display: inline;
-}
-
-h2 {
-    color: #c2c2c2;
-}
-
-p {
-    text-align: center;
+body { 
+    background-color: #022603; 
+} 
+  
+.outer { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 400px; 
+} 
+  
+.heading { 
+    display: flex; 
+    align-items: center; 
+    height: 200px; 
+    justify-content: center; 
+} 
+  
+h1, 
+h2 { 
+    text-align: center; 
+} 
+  
+h1 { 
+    color: #c2c2c2;  
+    display: inline; 
+} 
+  
+h2 { 
+    color: #c2c2c2; 
+} 
+  
+p { 
+    text-align: center; 
     font-weight: bold;
-    color: #a8b533;
-}
-
-.popup {
-    background-color: #209e67;
-    width: 366px;
-    height: 222px;
-    border-radius: 26px;
-    text-align: center;
-    display: none;
-    transition: all 0.5s ease;
-    transition-duration: 1s;
-}
-
-#showbtn {
-    margin: 200px auto;
-}
-
-#closebtn {
-    margin-top: 3px;
-}
-
-.popup button {
-    margin-top: 6px;
-}
-
-button {
-    background-color: #b50e54;
-    color: #c2c2c2;
-    border-radius: 5px;
-    height: 36px;
-    width: 110px;
-    border: none;
-    transition-duration: 0.5s;
-    font-size: 17px;
-}
-
-.far.fa-check-circle {
-    color: #11e3fa;
-    font-size: 37px;
-    margin-top: 7px;
-}
-
-button:hover {
-    background-color: #6e2242;
-    color: #c2c2c2;
+    color: #a8b533; 
+} 
+  
+.popup { 
+    background-color: #22523d; 
+    width: 366px; 
+    height: 222px; 
+    border-radius: 26px; 
+    text-align: center; 
+    display: none; 
+    transition: all 0.5s ease; 
+    transition-duration: 1s; 
+} 
+  
+#showbtn { 
+    margin: 200px auto; 
+} 
+  
+#closebtn { 
+    margin-top: 3px; 
+} 
+  
+.popup button { 
+    margin-top: 6px; 
+} 
+  
+button { 
+    background-color: #b50e54; 
+    color: #c2c2c2; 
+    border-radius: 5px; 
+    height: 36px; 
+    width: 110px; 
+    border: none; 
+    transition-duration: 0.5s; 
+    font-size: 17px; 
+} 
+  
+.far.fa-check-circle { 
+    color: #11e3fa; 
+    font-size: 37px; 
+    margin-top: 7px; 
+} 
+  
+button:hover { 
+    background-color: #6e2242; 
+    color: #c2c2c2; 
 }
